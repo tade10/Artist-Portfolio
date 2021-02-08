@@ -1,0 +1,78 @@
+
+.navbar-default {
+    background-color: transparent;
+}
+.carousel-item img { width: 100%; margin: auto; }
+
+
+.online_music{
+	position: absolute;
+	width:50%;
+	height:10%;
+	top: 60%;
+	left: 30%;
+	font-size:100px;
+	
+}
+.online_music i {
+	margin-left: 50px;
+}
+
+.social{
+	position: absolute;
+	width:0%;
+	height:5%;
+	top: 8%;
+	right: 5%;
+	font-size:40px;
+
+
+}
+
+
+
+@media only screen and (max-width: 1134px) {
+  /* For mobile phones: */
+  .online_music {
+    
+    font-size:65px;
+
+  }
+
+  .online_music i {
+	margin-left: 25px;
+}
+
+  .social{
+	width:5%;
+	font-size:25px;
+
+	}
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .online_music {
+    
+    font-size:40px;
+  }
+
+   .online_music i {
+	margin-left: 5px;
+	}
+
+}
+
+@media only screen and (max-width: 580px) {
+  /* For mobile phones: */
+  .online_music {
+    
+    font-size:15px;
+    left: 40%;
+  }
+  .social{
+	font-size:15px;
+
+	}
+
+}
